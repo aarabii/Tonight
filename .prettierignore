@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+.expo/
+web-build/
+coverage/
+bun.lock
+bun.lockb
+local/
+pipeline/.cache/

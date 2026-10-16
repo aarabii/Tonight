@@ -1,0 +1,25 @@
+{
+  "name": "tonight",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "pipeline",
+    "apps/*"
+  ],
+  "scripts": {
+    "typecheck": "bun --filter '*' typecheck",
+    "lint": "bun --filter '*' lint",
+    "test": "bun --filter @tonight/shared test && bun --filter @tonight/pipeline test",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/bun": "latest",
+    "eslint": "^9.22.0",
+    "prettier": "^3.5.3",
+    "typescript": "~5.8.2",
+    "typescript-eslint": "^8.26.1",
+    "vitest": "^3.0.8"
+  }
+}
