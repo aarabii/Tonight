@@ -35,3 +35,6 @@ jobs:
 
       - name: Run unit tests
         run: bun run test
+
+      - name: Run offline recommendation evaluation
+        run: bun --filter @tonight/pipeline eval

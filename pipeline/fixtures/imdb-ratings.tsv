@@ -1,0 +1,6 @@
+tconst	averageRating	numVotes
+tt2543164	7.9	785000
+tt3417422	8.3	44200
+tt1392214	8.1	820000
+tt0062622	8.3	720000
+malformed_row	not_a_number	abc

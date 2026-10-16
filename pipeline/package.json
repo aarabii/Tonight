@@ -6,9 +6,18 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "lint": "eslint src",
-    "test": "vitest run"
+    "test": "vitest run",
+    "eval": "bun run src/eval/index.ts",
+    "bulk": "bun run src/run-bulk.ts",
+    "nightly": "bun run src/run-nightly.ts",
+    "db-size-guard": "bun run src/db-size-guard.ts",
+    "build-seed": "bun run src/build-seed.ts"
   },
   "dependencies": {
-    "@tonight/shared": "workspace:*"
+    "@huggingface/transformers": "^3.4.0",
+    "@supabase/supabase-js": "^2.49.1",
+    "@tonight/shared": "workspace:*",
+    "p-limit": "^6.2.0",
+    "postgres": "^3.4.5"
   }
 }

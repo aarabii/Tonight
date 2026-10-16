@@ -1,0 +1,76 @@
+{
+  "head": {
+    "vars": [
+      "film",
+      "filmLabel",
+      "tmdbId",
+      "imdbId",
+      "pubDate",
+      "runtime",
+      "series",
+      "sitelinks",
+      "enwikiTitle",
+      "genres",
+      "subjects",
+      "settings"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "film": { "type": "uri", "value": "http://www.wikidata.org/entity/Q20966343" },
+        "filmLabel": { "type": "literal", "xml:lang": "en", "value": "Arrival" },
+        "tmdbId": { "type": "literal", "value": "329865" },
+        "imdbId": { "type": "literal", "value": "tt2543164" },
+        "pubDate": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "value": "2016-11-11T00:00:00Z"
+        },
+        "runtime": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "116"
+        },
+        "sitelinks": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "68"
+        },
+        "enwikiTitle": { "type": "literal", "value": "Arrival (film)" },
+        "genres": { "type": "literal", "value": "science fiction film|drama film|mystery film" },
+        "subjects": {
+          "type": "literal",
+          "value": "first contact|extraterrestrial life|linguistics|deterministic universe|grief"
+        },
+        "settings": { "type": "literal", "value": "Montana|spacecraft" }
+      },
+      {
+        "film": { "type": "uri", "value": "http://www.wikidata.org/entity/Q16251445" },
+        "filmLabel": { "type": "literal", "xml:lang": "en", "value": "Drishyam" },
+        "tmdbId": { "type": "literal", "value": "244786" },
+        "imdbId": { "type": "literal", "value": "tt3417422" },
+        "pubDate": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+          "value": "2013-12-19T00:00:00Z"
+        },
+        "runtime": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+          "value": "160"
+        },
+        "series": { "type": "uri", "value": "http://www.wikidata.org/entity/Q105553200" },
+        "sitelinks": {
+          "type": "literal",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer",
+          "value": "19"
+        },
+        "enwikiTitle": { "type": "literal", "value": "Drishyam" },
+        "genres": { "type": "literal", "value": "crime thriller|family drama" },
+        "subjects": { "type": "literal", "value": "cover-up|alibi|police investigation|family protection" },
+        "settings": { "type": "literal", "value": "Kerala|rural village" }
+      }
+    ]
+  }
+}
