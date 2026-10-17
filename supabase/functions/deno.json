@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "imports": {
+    "@supabase/supabase-js": "npm:@supabase/supabase-js@^2.49.1",
+    "zod": "npm:zod@^3.24.2",
+    "@tonight/shared": "../../packages/shared/src/index.ts"
+  }
+}
